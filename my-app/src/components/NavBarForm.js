@@ -1,5 +1,5 @@
-import React from "react";
-import css from "./css/NavBarForm.module.css";
+import React from "react"
+import css from "./css/NavBarForm.module.css"
 import NavBarChild from "./NavBarChild.js"
 
 class NavBarForm extends React.Component {
