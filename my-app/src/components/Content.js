@@ -39,7 +39,7 @@ export class Content extends Component {
     return (
       <div className={css.Content}>
         <div className={css.TitleBar}>
-          <h1>My Posts</h1>
+          <h1>My Photos</h1>
           <form>
             <label htmlFor="searchInput">Search:</label>
             <input
