@@ -1,14 +1,14 @@
 import css from './App.module.css';
 import Sidebar from './components/Sidebar.js'
 import NavBarForm from './components/NavBarForm.js'
-import ContentAPI from './components/ContentAPI.js'
+import ContentAPIHooks from './components/ContentAPIHooks.js'
 
 function App() {
   return (
     <div className={css.App}>
       <NavBarForm />
       <Sidebar />
-      <ContentAPI />
+      <ContentAPIHooks />
     </div>
   );
 }
